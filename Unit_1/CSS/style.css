@@ -1,8 +1,14 @@
 body {background-color: #008B8B;}
 
-h1 {color: #FF8C00;}
+h1 {color: #FF8C00;
+font-size: 550%;}
 
-h2 {color: #FFF8DC;}
+h2 {color: #FFF8DC;
+font-size: 200%;}
 
-p {color: #DAA520;}
+p {color: #DAA520;
+font-size: 130%;}
 
+section {
+margin: 0 30% 24px 20%;
+}
