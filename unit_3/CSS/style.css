@@ -34,7 +34,7 @@ h2 {
 	font-size: 2.2em;
 	font-weight: 500;
 	text-transform: uppercase
-	text-indent: 100px;
+	text-indent: ;
 	padding: 0px 12px 0px 12px;}
 
 
@@ -44,7 +44,9 @@ p {
 	font-style: normal;
 	font-size: 2.0em%;
 	font-weight: normal;
-	padding: 12px;}
+	padding-right: 12px;
+	padding-left: 12px;
+}
 
 a {
 	color: #f8f6ff;
@@ -80,6 +82,7 @@ a {
 	margin:;
 	word-spacing: 2.0em;
 	text-indent: 4.0em;
+	padding: 18px;
 
 	
 }
@@ -92,13 +95,19 @@ a {
 	background-color: #dfdee5;
 	opacity: 0.9;
 	border-radius:;
-	margin: 0 30% 24px 20%;
+	margin: 2.0% 1.0% 24px 1.0%;
+	/*margin: 0 30% 24px 20%;*/
 	text-transform: ;
+	width: 290px;
+	height: 450px;
+	display: inline-block;
+	vertical-align: top;
 }
 
 .newsimage {
 	padding: 12px;
 	margin: ;
+	display: ;
 }
 
 .contact-us {
@@ -113,14 +122,15 @@ a {
 	padding: 52px;
 }
 
-.footer {
+.footer-content {
 	text-align: right;
 	border-style: ;
 	border-width: ;
 	border-color: ;
 	background-color: #ccc4b1;
 	opacity: 0.9;
-	padding: ;
+	padding-bottom: 32px;
+	padding-right: 32px;
 	margin: ;
 	text-transform: uppercase;
 	word-spacing: 2.0em;
@@ -153,9 +163,11 @@ a {
 
 #footercompanyname {
 	word-spacing: normal;
+
 }
 
 #about-policies-help {
 	text-align: left;
 	text-indent: 4.0em;
+	padding-top: 22px;
 }
