@@ -1,4 +1,13 @@
-body {background-color: #008B8B;}
+body {
+	text-align: center;
+	background: url("images/photo3.jpg");
+	background-size: cover;
+}
+/*{background-color: #008B8B;}*/
+
+#slogan {
+	font-style: italic;
+}
 
 h1 {color: #FF8C00;
 font-size: 550%;}
@@ -7,8 +16,8 @@ h2 {color: #FFF8DC;
 font-size: 200%;}
 
 p {color: #DAA520;
-font-size: 130%;}
+font-size: 10%;}
 
-section {
+/*section {
 margin: 0 30% 24px 20%;
-}
+}*/

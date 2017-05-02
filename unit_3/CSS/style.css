@@ -1,0 +1,161 @@
+body {
+	background-image: url("images/photo3.jpg");
+	background-size: 100%;
+	background-color: #000000;
+	background-repeat: no-repeat;
+}
+
+h1 {
+	color: #f8f6ff;
+	font-family: "Lucida";
+	font-style:;
+	font-size: 2.5em;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-transform: underline;
+	padding: 12px;
+	display: inline-block;
+}
+
+
+/* Colors
+
+	f8f6ff
+	3e3e40
+	dfdee5
+	fff0b6
+	ccc4b1
+*/
+
+h2 {
+	color: #3e3e40; 
+	font-family: "Lucida";
+	font-style: ;
+	font-size: 2.2em;
+	font-weight: 500;
+	text-transform: uppercase
+	text-indent: 100px;
+	padding: 0px 12px 0px 12px;}
+
+
+p {
+	color: #3e3e40;
+	font-family: "Lucida";
+	font-style: normal;
+	font-size: 2.0em%;
+	font-weight: normal;
+	padding: 12px;}
+
+a {
+	color: #f8f6ff;
+	font-family: "Lucida";
+	font-style: normal;
+	font-size: 1.2em;
+	font-weight: normal;
+	text-transform: uppercase;
+	padding: 12px;
+}
+
+.header-block{
+	display: ;
+	border-style: ;
+	border-width: ;
+	border-color: ;
+	background-color: #ccc4b1;
+	opacity: 0.9;
+	margin:;
+	word-spacing:;
+	text-indent: ;
+	text-align: ;
+}
+
+.page-menu {
+	font-family:;
+	font-size: ;
+	border-style: ;
+	border-width: ;
+	border-color: ;
+	background-color: #ccc4b1;
+	opacity: 0.9;
+	margin:;
+	word-spacing: 2.0em;
+	text-indent: 4.0em;
+
+	
+}
+
+.news-story {
+	border-style: solid;
+	border-width: 20px 4px 10px 4px;
+	border-color: #f8f6ff;
+	border-bottom:;
+	background-color: #dfdee5;
+	opacity: 0.9;
+	border-radius:;
+	margin: 0 30% 24px 20%;
+	text-transform: ;
+}
+
+.newsimage {
+	padding: 12px;
+	margin: ;
+}
+
+.contact-us {
+	font-size: 2.5em;
+	text-align: center;
+	border-style: ;
+	border-width: ;
+	border-color: ;
+	background-color: #ccc4b1;
+	opacity: 0.9;
+	margin: ;
+	padding: 52px;
+}
+
+.footer {
+	text-align: right;
+	border-style: ;
+	border-width: ;
+	border-color: ;
+	background-color: #ccc4b1;
+	opacity: 0.9;
+	padding: ;
+	margin: ;
+	text-transform: uppercase;
+	word-spacing: 2.0em;
+}
+
+#logo {
+	padding: ;
+	margin: 32px;
+	width: 60px;
+	display: inline-block;
+}
+
+#header-menu {
+	text-align: right;
+	display: inline-block;
+	float: right;
+	margin: 32px;
+}
+
+#slogan {
+	color: #f8f6ff;
+	font-style:;
+	font-family: "Lucida";
+	font-size: 2.0em;
+	font-weight: bold;
+	text-decoration:;
+	text-transform: uppercase;
+	text-indent: 4.0em;
+}
+
+#footercompanyname {
+	word-spacing: normal;
+}
+
+#about-policies-help {
+	text-align: left;
+	text-indent: 4.0em;
+}
