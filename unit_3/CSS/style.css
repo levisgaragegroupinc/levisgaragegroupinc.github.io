@@ -46,6 +46,7 @@ p {
 	font-weight: normal;
 	padding-right: 12px;
 	padding-left: 12px;
+	padding-top: ;
 }
 
 a {
@@ -89,25 +90,32 @@ a {
 
 .news-story {
 	border-style: solid;
-	border-width: 20px 4px 10px 4px;
+	border-width: 20px 4px 4px 4px;
 	border-color: #f8f6ff;
 	border-bottom:;
 	background-color: #dfdee5;
 	opacity: 0.9;
 	border-radius:;
-	margin: 2.0% 1.0% 24px 1.0%;
+	margin: 2.0% 1.0% 2.0% 1.0%;
 	/*margin: 0 30% 24px 20%;*/
-	text-transform: ;
+	text-transform: uppercase;
 	width: 290px;
 	height: 450px;
 	display: inline-block;
 	vertical-align: top;
+
 }
 
 .newsimage {
 	padding: 12px;
 	margin: ;
 	display: ;
+	float: left;
+}
+
+.paragraph {
+	padding-top: 7px;
+	text-transform: none;
 }
 
 .contact-us {
@@ -141,13 +149,15 @@ a {
 	margin: 32px;
 	width: 60px;
 	display: inline-block;
+	float: left;
 }
 
 #header-menu {
 	text-align: right;
 	display: inline-block;
 	float: right;
-	margin: 32px;
+	margin-top: 32px;
+	margin-right: 32px;
 }
 
 #slogan {
