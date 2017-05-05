@@ -1,0 +1,296 @@
+@import url(https://fonts.googleapis.com/css?family=Lora);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:700);
+
+body {
+	background-color: #3e3e40;
+}
+
+h1 {
+	color: #f8f6ff;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 2.5em;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-transform: underline;
+	padding-top: 0; 
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 12px; 
+	margin: 0;
+	display: inline-block;
+	width: 700px;
+}
+
+h2 {
+	color: #f8f6ff;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 1.2em;
+	font-weight: normal;
+	text-transform: none;
+	text-align: center;
+}	
+
+h3 {
+	color: #347ABF;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 1.7em;
+	font-weight: 500;
+	text-indent: 2px; 
+	text-transform: none;
+	padding: 0px 12px 0px 12px;
+}
+
+p {
+	color: #3e3e40;
+	font-family: 'Lora', serif;
+	font-style: normal;
+	font-size: 1.0em;
+	font-weight: bold;
+	letter-spacing: 0.03em;
+	line-height: 1.4em;
+	text-transform: none;
+	padding-right: 12px;
+	padding-left: 12px;
+}
+
+article {
+	border-style: solid;
+	border-width: 20px 4px 4px 4px;
+	border-color: #f8f6ff;
+	background-color: #dfdee5;
+	opacity: 0.9;
+	margin: 20px 10px 20px 10px;
+	text-transform: uppercase;
+	width: 290px;
+	height: 470px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+article:hover {
+	margin: 7px 10px 20px 10px;
+}
+
+footer {
+	text-align: right;
+	background-color: #3e3e40;
+	opacity: 0.9;
+	padding-bottom: 32px;
+	padding-right: 32px;
+	text-transform: uppercase;
+	word-spacing: 2.0em;
+}
+
+footer a {
+	font-family: 'Lora', serif;
+	font-size: 0.9em;
+	text-decoration: none;
+}
+
+footer p {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 1.2em;
+	word-spacing: normal;
+	color: #f8f6ff;
+}
+
+a {
+	color: #f8f6ff;
+	font-family: 'PT Sans', sans-serif;
+	font-style: normal;
+	font-size: 1.2em;
+	font-weight: normal;
+	text-transform: uppercase;
+	padding: 12px;
+}
+
+img {
+	display: block;
+	padding: 0px 12px 0px 12px;
+	width: 265px;
+	margin: auto;
+}
+
+hr {
+	background-color: #f8f6ff;
+	color: #f8f6ff;
+	margin: 0;
+	height: 3px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+li {
+	display: inline-block;
+}
+
+li a {
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.header-block{
+	background-color: #3e3e40;
+	opacity: 0.9;
+	width: 100%;
+}
+
+.slogan {
+	margin-top: 15px;
+	margin-bottom: 0px;
+}
+
+.diy {
+	color: #34A2BF;
+	display: inline-block;
+	width: 59px;
+}
+
+.sub-slogan {
+	font-size: 0.5em;
+}
+
+.page-menu {
+	background-color: #3e3e40;
+	opacity: 0.9;
+	word-spacing: 2.0em;
+	padding: 18px;
+	margin-left: 18px;
+}
+
+.mouse-hover:hover {
+	color: #34A2BF;
+}
+
+.start-a-garage {
+	font-size: 2.0em;
+	text-align: center;
+	border-style: solid;
+	border-radius: 35px;
+	border-color: #34A2BF;
+	background-color: #34A2BF;
+	opacity: 0.9;
+	width: 400px;
+	margin: auto;
+	margin-bottom: 12px;
+	padding: 12px;
+	display: block;
+}
+
+.start-a-garage a {
+	text-decoration: none;
+}
+
+.start-a-garage:hover {
+	background-color: #273A4D;
+	border-color: #273A4D;
+} 
+
+.find-a-garage {
+	font-size: 2.0em;
+	text-align: center;
+	border-style: solid;
+	border-radius: 35px;
+	border-color: #f8f6ff;
+	background-color: #f8f6ff;
+	opacity: 0.9;
+	width: 400px;
+	margin: auto;
+	margin-bottom: 42px;
+	padding: 12px;
+	display: block;
+}
+
+.find-a-garage a {
+	text-decoration: none;
+	color: #34A2BF;
+}
+
+.find-a-garage:hover {
+	background-color: #732A25; 
+	border-color: #732A25;
+	color: #f8f6ff;
+}
+
+.find-a-garage:hover a {
+	color: #f8f6ff;
+}
+
+#logo {
+	margin: 22px;
+	width: 60px;
+	display: inline-block;
+	float: left;
+	padding: 0;
+}
+
+#header-menu {
+	text-align: right;
+	display: inline-block;
+	float: right;
+	margin-top: 32px;
+	margin-right: 32px;
+}
+
+#header-menu a {
+font-family: 'Lora', serif;
+}
+
+#date {
+	font-family: 'PT Sans', sans-serif;
+	text-transform: uppercase;
+	font-weight: normal;
+	opacity: 0.9;
+}
+
+#about-policies-help {
+	text-align: left;
+	text-indent: 4.0em;
+	padding-top: 22px;
+	margin-top: 22px;
+}
+
+#company-name {
+	display: inline-block;
+}
+
+
+/* 
+Fonts
+
+	font-family: 'Lora', serif;
+	font-family: 'PT Sans', sans-serif;
+
+Colors
+
+	#f8f6ff cream white
+	#3e3e40 dark gray
+	#dfdee5 light gray
+	#fff0b6 cream yellow
+	#ccc4b1 cream tan
+	#5E5E8C purple blue
+	#3C3C59 darker blue purple
+	#828C2D dark yellow
+	#273A4D dark blue
+	#347ABF lighter blue
+	#34A2BF lighter blue2
+	#3C401B green brown
+	#732A25 deep red
+	#8C3A34 light red
+
+	#347ABF
+	#34A2BF
+
+Alternative Background, Image Cover
+
+	background-image: url("../images/photo3.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+*/
