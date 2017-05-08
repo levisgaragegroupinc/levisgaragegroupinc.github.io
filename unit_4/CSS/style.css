@@ -136,6 +136,16 @@ li a {
 	text-decoration: none;
 }
 
+time {
+	font-family: 'PT Sans', sans-serif;
+	text-transform: uppercase;
+	font-weight: normal;
+	opacity: 0.9;
+	padding: 12px;
+	line-height: 28px;
+}
+
+
 .header-block{
 	background-color: #3e3e40;
 	opacity: 0.9;
@@ -149,8 +159,6 @@ li a {
 
 .diy {
 	color: #34A2BF;
-	display: inline-block;
-	width: 59px;
 }
 
 .sub-slogan {
@@ -241,13 +249,6 @@ li a {
 
 #header-menu a {
 font-family: 'Lora', serif;
-}
-
-#date {
-	font-family: 'PT Sans', sans-serif;
-	text-transform: uppercase;
-	font-weight: normal;
-	opacity: 0.9;
 }
 
 #about-policies-help {
