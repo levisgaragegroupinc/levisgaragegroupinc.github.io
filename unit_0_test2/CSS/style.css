@@ -1,3 +1,5 @@
+/*Working with floats. 5-09-2017*/
+
 @import url(https://fonts.googleapis.com/css?family=Lora);
 @import url(https://fonts.googleapis.com/css?family=PT+Sans:700);
 
@@ -54,20 +56,23 @@ p {
 }
 
 article {
+	text-transform: uppercase;
 	border-style: solid;
 	border-width: 20px 4px 4px 4px;
 	border-color: #f8f6ff;
+	box-sizing: border-box; 
 	background-color: #dfdee5;
 	opacity: 0.9;
-	margin: 20px 10px 20px 10px;
-	text-transform: uppercase;
-	width: 290px;
-	height: 470px;
+	margin: 1%;
+	width: 23%;
+	min-width: 300px;
+	height: 500px;
 	float: left;
+	overflow: hidden;
 }
 
 article:hover {
-	margin: 7px 10px 20px 10px;
+	margin: 0% 1% 1% 1%;
 }
 
 footer {
@@ -80,6 +85,7 @@ footer {
 	border-style: solid;
 	border-color: #f8f6ff;
 	border-width: 13px 0 0 0;
+	clear: both;
 }
 
 footer a {
@@ -108,7 +114,7 @@ a {
 img {
 	display: block;
 	padding: 0px 12px 0px 12px;
-	width: 265px;
+	width: 92%;
 	margin: auto;
 }
 
@@ -163,7 +169,6 @@ time {
 	background-color: #3e3e40;
 	word-spacing: 2.0em;
 	padding: 18px;
-	margin-left: 18px;
 	border-width: 13px 0px;
 	border-color: #f8f6ff;
 	border-style: solid;
