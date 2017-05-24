@@ -1,0 +1,219 @@
+<!-- findagarages.html page 5-09-2017 -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Levi's Garage</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css>">
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+</head>
+<body> 
+
+	<header>
+		<a id="logo" href="index.html">
+			<img src="images/logophoto2.png" alt="logo crossed wrench and screwdriver inside a gear icon">
+		</a> 
+		<div id="header-menu">
+			<ul>
+				<li><a class="mouse-hover" href="link-to-help">Help</a></li>
+				<li><a class="mouse-hover" href="link-to-user-account">Account</a></li>
+			</ul>
+		</div>
+  		
+  		<h1>Levi's Garage<br>The Network for<span class="diy"> DIY </span>Garage Space</h1>
+	</header>
+
+<main>	
+	<div>
+		<h1 class="h1-float-correction">Search For A Garage Nearby</h1>
+	</div>
+
+<section class="clearfix" class="container">
+	<fieldset class="search-garages">
+		<legend>Search By City</legend>	
+		<form action="URL" method="get">
+			<p class="formtext">
+			<input type="text" name="city" maxlength="30" placeholder="City" />
+			</p>
+		</form>
+	</fieldset>
+	
+	<fieldset class="search-garages">	
+		<legend>Search By State</legend>
+		<form action="URL" method="get">
+			<p class="formtext">
+			<input type="text" name="state" maxlength="15" placeholder="State" />
+			</p>
+		</form>
+	</fieldset>
+
+	<fieldset class="search-garages">
+		<legend>Search By Zip</legend>
+		<form action="URL" method="get">
+			<p class="formtext">
+			<input type="text" name="zip" maxlength="5" placeholder="Zip" />
+			</p>
+		</form>
+	</fieldset>	
+
+	<fieldset class="search-garages">
+		<legend>Search By Make</legend>
+		<form action="URL" method="get">
+			<p class="formtext">
+			<input type="text" name="make" maxlength="15" placeholder="Make" />
+			</p>
+		</form>
+	</fieldset>	
+</section>
+</main>
+
+<section class="map">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d172133.4264403788!2d-122.47598778929672!3d47.61476278517128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490102c93e83355%3A0x102565466944d59a!2sSeattle%2C+WA!5e0!3m2!1sen!2sus!4v1495574706971" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</section>
+
+<aside>
+	<fieldset class="search-garages">	
+		<legend>Search By State</legend>
+		<form action="URL" method="get">
+			<p class="formtext">
+			<select name="state">
+				<option></option>
+				<option value="AK">	AK	</option>
+				<option>	AZ	</option>
+				<option>	AR	</option>
+				<option>	CA	</option>
+				<option>	CO	</option>
+				<option>	CT	</option>
+				<option>	DE	</option>
+				<option>	FL	</option>
+				<option>	GA	</option>
+				<option>	HI	</option>
+				<option>	ID	</option>
+				<option>	IL	</option>
+				<option>	IN	</option>
+				<option>	IA	</option>
+				<option>	KS	</option>
+				<option>	KY	</option>
+				<option>	LA	</option>
+				<option>	ME	</option>
+				<option>	MD	</option>
+				<option>	MA	</option>
+				<option>	MI	</option>
+				<option>	MN	</option>
+				<option>	MS	</option>
+				<option>	MO	</option>
+				<option>	MT	</option>
+				<option>	NE	</option>
+				<option>	NV	</option>
+				<option>	NH	</option>
+				<option>	NJ	</option>
+				<option>	NM	</option>
+				<option>	NY	</option>
+				<option>	NC	</option>
+				<option>	ND	</option>
+				<option>	OH	</option>
+				<option>	OK	</option>
+				<option>	OR	</option>
+				<option>	PA	</option>
+				<option>	RI	</option>
+				<option>	SC	</option>
+				<option>	SD	</option>
+				<option>	TN	</option>
+				<option>	TX	</option>
+				<option>	UT	</option>
+				<option>	VT	</option>
+				<option>	VA	</option>
+				<option>	WA	</option>
+				<option>	WV	</option>
+				<option>	WI	</option>
+				<option>	WY	</option>
+			</select>
+			</p>
+		</form>
+	</fieldset>
+
+</aside>
+
+
+
+<!-- <hr class="clearfix">
+		<form action="URL" method="get">
+			<p class="formtext">choose make:
+			<br>
+			<input type="radio" name="brand" value="chevy" checked="checked"/>chevy		
+			<input type="radio" name="brand" value="ford"/>ford
+			<input type="radio" name="brand" value="dodge"/>dodge
+			<input type="radio" name="brand" value="nissan"/>nissan
+			<input type="radio" name="brand" value="other"/>other
+			</p>
+		</form>
+	</fieldset>
+
+	<form action="URL" method="get">
+		<p class="formtext">choose make:
+		<br>
+		<input type="checkbox" name="brand" value="chevy"/>chevy
+		<input type="checkbox" name="brand" value="ford"/>ford
+		<input type="checkbox" name="brand" value="dodge"/>dodge
+		<input type="checkbox" name="brand" value="nissan"/>nissan
+		<input type="checkbox" name="brand" value="other"/>other
+		</p>
+	</form>
+
+<form action="" method="">
+	<p class="formtext">choose make:
+	<select name="brand">
+		<option value=""></option>
+		<option value="chevy">chevy</option>
+		<option value="ford">ford</option>
+		<option value="dodge">dodge</option>
+		<option value="nissan">nissan</option>
+		<option value="other">other</option>
+	</select>
+	</p>
+</form>
+
+<form action="" method="">
+	<input type="submit" name="optional" value="submit">
+</form>
+
+<form action="" method="">
+	<input type="image" src="images/redbutton1.png" name="" width="20px" height="20px">
+</form>
+
+<form action="" method="">
+	<input type="date" name="available">
+
+</form>
+
+<form action="" method="">
+	<input type="search" name="search" placeholder="enter city name">
+
+</form>
+
+	<hr>
+
+
+<div class="state-card">
+<div class="state-contnet">
+<a href="">AZ</a>
+<a href="">AK</a>
+<a href="">CA</a>
+<a href="">CO</a>	
+</div>
+</div>
+ -->
+	
+	<footer>
+		<div id="about-policies-help">	
+			<a class="mouse-hover" href="link-to-about">About</a>
+			<a class="mouse-hover" href="link-to-policies">Policies</a>
+			<a class="mouse-hover" href="link-to-help">Help</a>
+		</div>
+		<p id="company-name">Levi's Garage Group, Inc.</p>
+		<a class="mouse-hover" href="link-to-about">Terms</a>
+		<a class="mouse-hover" href="link-to-privacy">Privacy</a>
+	</footer>		
+</body>
+</html>

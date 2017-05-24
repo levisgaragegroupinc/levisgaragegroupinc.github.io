@@ -12,64 +12,105 @@
 	<header class="header-block">
 		<a id="logo" href="index.html">
 			<img src="images/logophoto2.png" alt="logo crossed wrench and screwdriver inside a gear icon">
-		</a>
+		</a> 
 		<div id="header-menu">
 			<ul>
 				<li><a class="mouse-hover" href="link-to-help">Help</a></li>
 				<li><a class="mouse-hover" href="link-to-user-account">Account</a></li>
 			</ul>
 		</div>
+  		
   		<h1>Levi's Garage<br>The Network for<span class="diy"> DIY </span>Garage Space</h1>
-		<h2>Book space in a local garage or rent out your own</h2>
+		<!-- <h2>Book space in a local garage or rent out your own</h2> -->
 	</header>
 
-	<nav>
-		<div class="start-a-garage">
-			<a href="startagarage.html">Start a Garage</a>
-		</div>		
+<main>	
 	
-		<div class="find-a-garage">
-			<a href="findagarage.html">Find a Garage</a>
-		</div>
-	</nav>
-
-	<header class="page-menu">
-		<ul>
-			<li><a class="mouse-hover" href="index.html">News</a></li>
-			<li><a class="mouse-hover" href="garages.html">Garages</a></li>
-			<li><a class="mouse-hover" href="link-to-specialty-page-here">Specialty</a></li>
-			<li><a class="mouse-hover" href="link-to-events-page-here">Events</a></li>
-		</ul>
-	</header>
+<hr>
+	<div>
+		<h1>Search For A Garage Nearby</h1>
+	</div>
 
 
-<h1>Garages</h1>
-	<main>
-	<!-- Forms page 162. Combine text and images into a button. -->
-	<button type="button">Button</button>
-	<button>Button2</button>
-
-
-	<fieldset>
-		<legend>search locations near you</legend>	
+	<fieldset class="search-garages">
+		<legend>Search By City</legend>	
 		<form action="URL" method="get">
 			<p class="formtext">city:
 			<input type="text" name="city" maxlength="30" placeholder="city" />
 			</p>
 		</form>
-
+	</fieldset>
+	
+	<fieldset class="search-garages">	
+		<legend>Search By State</legend>
 		<form action="URL" method="get">
 			<p class="formtext">state:
-			<input type="text" name="state" maxlength="15" placeholder="state" />
+			<select name="state">
+				<option></option>
+				<option value="AK">	AK	</option>
+				<option>	AZ	</option>
+				<option>	AR	</option>
+				<option>	CA	</option>
+				<option>	CO	</option>
+				<option>	CT	</option>
+				<option>	DE	</option>
+				<option>	FL	</option>
+				<option>	GA	</option>
+				<option>	HI	</option>
+				<option>	ID	</option>
+				<option>	IL	</option>
+				<option>	IN	</option>
+				<option>	IA	</option>
+				<option>	KS	</option>
+				<option>	KY	</option>
+				<option>	LA	</option>
+				<option>	ME	</option>
+				<option>	MD	</option>
+				<option>	MA	</option>
+				<option>	MI	</option>
+				<option>	MN	</option>
+				<option>	MS	</option>
+				<option>	MO	</option>
+				<option>	MT	</option>
+				<option>	NE	</option>
+				<option>	NV	</option>
+				<option>	NH	</option>
+				<option>	NJ	</option>
+				<option>	NM	</option>
+				<option>	NY	</option>
+				<option>	NC	</option>
+				<option>	ND	</option>
+				<option>	OH	</option>
+				<option>	OK	</option>
+				<option>	OR	</option>
+				<option>	PA	</option>
+				<option>	RI	</option>
+				<option>	SC	</option>
+				<option>	SD	</option>
+				<option>	TN	</option>
+				<option>	TX	</option>
+				<option>	UT	</option>
+				<option>	VT	</option>
+				<option>	VA	</option>
+				<option>	WA	</option>
+				<option>	WV	</option>
+				<option>	WI	</option>
+				<option>	WY	</option>
+			</select>
 			</p>
 		</form>
+	</fieldset>
 
+	<fieldset class="search-garages">
+		<legend>Search By ZipCode</legend>
 		<form action="URL" method="get">
 			<p class="formtext">zip:
 			<input type="text" name="zip" maxlength="5" placeholder="zip" />
 			</p>
 		</form>
-		
+	</fieldset>	
+
+<hr class="clearfix">
 		<form action="URL" method="get">
 			<p class="formtext">choose make:
 			<br>
@@ -126,55 +167,7 @@
 
 	
 
-	<table>
-		<tr>
-			<thead>
-			<th scope="col" colspan="4">Arizona</th>
-			</thead>
-			<tbody>	
-			<td>Table Data2</td>
-			<td>Table Data3</td>
-			<td>Table Data4</td>
-			<td>Table Data</td>
-			<thead>
-			<th colspan="3">Colorado</th>
-			</thead>
-			<td>Table Data2</td>
-			<td>Table Data3</td>
-			<td>Table Data4</td>
-			<td>Table Data</td>
-			<thead>
-			<th colspan="4">Michigan</th>
-			</thead>
-			<td>Table Data5</td>
-			<td>Table Data6</td>
-			<td>Table Data7</td>
-			<td>Table Data8</td>
-			<thead>	
-			<th colspan="4">Nevada</th>
-			</thead>
-			<td>Table Data5</td>
-			<td>Table Data6</td>
-			<td>Table Data7</td>
-			<td>Table Data8</td>
-			<thead>
-			<th colspan="4">Oregon</th>
-			</thead>
-			<td>Table Data5</td>
-			<td>Table Data6</td>
-			<td>Table Data7</td>
-			<td>Table Data8</td>
-			<thead>
-			<th colspan="4">Washington</th>
-			</thead>
-			<td>Table Data5</td>
-			<td>Table Data6</td>
-			<td>Table Data7</td>
-			<td>Table Data8</td>
-		</tbody>
-		</tr>		
-	</table>
-
+	
 	</main>
 
 	<footer>

@@ -1,4 +1,3 @@
-Working with floats. 5-09-2017*/
 
 @import url(https://fonts.googleapis.com/css?family=Lora);
 @import url(https://fonts.googleapis.com/css?family=PT+Sans:700);
@@ -7,24 +6,29 @@ body {
 	background-color: #3e3e40;
 }
 
-h1 {
-	color: #f8f6ff;
+h1, h2, h3, article, footer, a, time, footer p, legend {
 	font-family: 'PT Sans', sans-serif, "Lucida";
-	font-size: 2.5em;
-	font-weight: bold;
+	color: #f8f6ff;
 	text-transform: uppercase;
-	padding-top: 0; 
-	padding-right: 0;
-	padding-bottom: 0;
-	padding-left: 12px; 
+	text-decoration: none;
+}
+
+p, footer a, #header-menu a {
+	font-family: 'Lora', serif;
+	font-weight: bold;
+	letter-spacing: 0.03em;
+	line-height: 1.4em;
+}
+
+h1 {
+	font-size: 2.5em;
+	padding: 0 0 0 12px;
 	margin: 0;
 	display: inline-block;
 	width: 700px;
 }
 
 h2 {
-	color: #f8f6ff;
-	font-family: 'PT Sans', sans-serif;
 	font-size: 1.2em;
 	font-weight: normal;
 	text-transform: none;
@@ -33,32 +37,32 @@ h2 {
 
 h3 {
 	color: #347ABF;
-	font-family: 'PT Sans', sans-serif;
 	font-size: 1.7em;
 	font-weight: 500;
 	text-indent: 2px; 
 	text-transform: none;
-	padding: 0px 12px 0px 12px;
+	padding: 0 12px 0 12px;
 }
 
 p {
 	color: #3e3e40;
-	font-family: 'Lora', serif;
 	font-style: normal;
 	font-size: 1.0em;
-	font-weight: bold;
-	letter-spacing: 0.03em;
-	line-height: 1.4em;
 	text-transform: none;
-	padding-right: 12px;
-	padding-left: 12px;
+	padding: 0 12px 0 12px;
 }
+
+main {
+	display: block;
+	margin: 90px;
+	padding: 30px;
+}
+
 
 article {
 	text-transform: uppercase;
-	border-style: solid;
-	border-width: 20px 4px 4px 4px;
-	border-color: #f8f6ff;
+	border: 4px solid #f8f6ff;
+	border-top-width: 20px;
 	box-sizing: border-box; 
 	background-color: #dfdee5;
 	opacity: 0.9;
@@ -74,39 +78,20 @@ article:hover {
 	margin: 0% 1% 1% 1%;
 }
 
-
 footer {
 	text-align: right;
-	background-color: #3e3e40;
-	padding-bottom: 32px;
-	padding-right: 32px;
-	text-transform: uppercase;
+	padding: 0 32px 32px 0;
 	word-spacing: 2.0em;
-	border-style: solid;
-	border-color: #f8f6ff;
-	border-width: 13px 0 0 0;
-	clear: both;
-}
-
-footer a {
-	font-family: 'Lora', serif;
-	font-size: 0.9em;
-	text-decoration: none;
+	border: 0 solid #f8f6ff;
+	border-top-width: 13px;
 }
 
 footer p {
-	font-family: 'PT Sans', sans-serif;
-	font-size: 1.2em;
 	word-spacing: normal;
-	color: #f8f6ff;
 }
 
 a {
-	color: #f8f6ff;
-	font-family: 'PT Sans', sans-serif;
-	font-style: normal;
 	font-size: 1.2em;
-	font-weight: normal;
 	text-transform: uppercase;
 	padding: 12px;
 }
@@ -115,7 +100,6 @@ img {
 	display: block;
 	padding: 0px 12px 0px 12px;
 	width: 92%;
-	margin: auto;
 }
 
 ul {
@@ -130,16 +114,12 @@ li {
 }
 
 li a {
-	color: white;
 	text-align: center;
 	padding: 14px 16px;
-	text-decoration: none;
 }
 
 time {
-	font-family: 'PT Sans', sans-serif;
-	text-transform: uppercase;
-	font-weight: normal;
+	color: #3e3e40;
 	opacity: 0.9;
 	padding: 12px;
 	line-height: 28px;
@@ -158,98 +138,71 @@ hr {
 }
 
 form {
-	background-color: #8C3A34;
+	background-color: #732A25;
 }
 
 legend {
-	color: #34A2BF;
-	font-family: 'PT Sans', sans-serif, "Lucida";
-	font-size: 2.5em;
-	font-weight: bold;
-	text-transform: uppercase;
+	padding: 10px;
+	font-size: 1.5em;
 }
 
-fieldset {
-	width: 30%;
-	height: 500px;
+form input {
+	font-size: 1.5em;
+}
+
+section {
+	border: 1px solid #f8f6ff;
 }
 
 .search-garages {
 	float: left;
-	background-color: #8C3A34;
+	background-color: #732A25;
 	padding: 26px;
-	margin: 26px;
+	margin: 16px;
+	border: solid #732A25 5px;
 }
 
-.formtext {
+iframe {
+	margin: auto;
+	align-content: center;
+	align-items: center;
+}
+
+.map {
+	margin: 0 0 60px 120px;
+	padding: 0;
+}
+
+.diy, legend {
 	color: #34A2BF;
-	font-family: 'PT Sans', sans-serif, "Lucida";
-	font-size: 2.5em;
-	font-weight: bold;
-	text-transform: uppercase;
-}
-
-option {
-	color: #34A2BF;
-	font-family: 'PT Sans', sans-serif, "Lucida";
-	font-size: 2.5em;
-	font-weight: bold;
-	text-transform: uppercase;
-}
-
-select {
-	height: 40px;
-}
-
-.header-block{
-	background-color: #3e3e40;
-	opacity: 0.9;
-	width: 100%;
-}
-
-.slogan {
-	margin-top: 15px;
-	margin-bottom: 0px;
-}
-
-.diy {
-	color: #34A2BF;
-}
-
-.sub-slogan {
-	font-size: 0.5em;
 }
 
 .page-menu {
-	background-color: #3e3e40;
 	word-spacing: 2.0em;
 	padding: 18px;
-	border-width: 13px 0px;
-	border-color: #f8f6ff;
-	border-style: solid;
+	border: solid #f8f6ff;
+	border-width: 13px 0 13px 0;
 }
 
 .mouse-hover:hover {
 	color: #34A2BF;
 }
 
-.start-a-garage {
+.start-a-garage, .find-a-garage {
 	font-size: 2.0em;
 	text-align: center;
 	border-style: solid;
 	border-radius: 35px;
-	border-color: #34A2BF;
-	background-color: #34A2BF;
-	opacity: 0.9;
 	width: 400px;
 	margin: auto;
-	margin-bottom: 12px;
+	margin-bottom: 30px;
 	padding: 12px;
 	display: block;
 }
 
-.start-a-garage a {
-	text-decoration: none;
+.start-a-garage {
+	border-color: #34A2BF;
+	background-color: #34A2BF;
 }
 
 .start-a-garage:hover {
@@ -258,22 +211,11 @@ select {
 } 
 
 .find-a-garage {
-	font-size: 2.0em;
-	text-align: center;
-	border-style: solid;
-	border-radius: 35px;
 	border-color: #f8f6ff;
 	background-color: #f8f6ff;
-	opacity: 0.9;
-	width: 400px;
-	margin: auto;
-	margin-bottom: 42px;
-	padding: 12px;
-	display: block;
 }
 
 .find-a-garage a {
-	text-decoration: none;
 	color: #34A2BF;
 }
 
@@ -287,6 +229,10 @@ select {
 	color: #f8f6ff;
 }
 
+.formtext {
+	color: #34A2BF;
+}
+
 .clearfix:after {
 	visibility: hidden;
 	display: block;
@@ -295,21 +241,6 @@ select {
 	clear: both;
 	height: 0;
 }
-
-.clearfix:before {
-	visibility: hidden;
-	display: block;
-	font-size: 0; 
-	content: " "; 
-	clear: both;
-	height: 0;
-}
-
-.formtext {
-	color: #34A2BF;
-
-}
-
 
 #logo {
 	margin: 22px;
@@ -323,12 +254,11 @@ select {
 	text-align: right;
 	display: inline-block;
 	float: right;
-	margin-top: 32px;
-	margin-right: 32px;
+	margin-top: 32px 32px 0 0; 
 }
 
-#header-menu a {
-font-family: 'Lora', serif;
+.h1-float-correction {
+	width: 100%;
 }
 
 #about-policies-help {
@@ -374,3 +304,4 @@ Alternative Background, Image Cover
 	background-image: url("../images/photo3.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
+*/
