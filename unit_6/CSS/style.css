@@ -91,9 +91,9 @@ footer p {
 }
 
 a {
+	display: block;
 	font-size: 1.2em;
 	text-transform: uppercase;
-	padding: 12px;
 }
 
 img {
@@ -110,12 +110,25 @@ ul {
 }
 
 li {
+	text-align: center;	
 	display: inline-block;
+	width: 200px;
+	padding: 1px 1px 1px 1px;
+	margin: 5px 0 5px 0;
+	border: 2px solid #347ABF;
+	background-color: #347ABF;
 }
 
-li a {
-	text-align: center;
-	padding: 14px 16px;
+li:hover {
+	background-color: #732A25; 
+	border-color: #732A25;
+	height: 25px;
+}
+
+.news-current {
+	padding: 6px 1px 6px 1px;
+	background-color: #732A25;
+	border-color: #732A25;
 }
 
 time {
@@ -296,12 +309,27 @@ Colors
 	#732A25 deep red
 	#8C3A34 light red
 
-	#347ABF
-	#34A2BF
-
 Alternative Background, Image Cover
 
 	background-image: url("../images/photo3.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 */
+
+#f8f6ff { display: block; background-color: #f8f6ff;}
+
+#i3e3e40 {display: block; background-color: #3e3e40; color: white; border: 1px solid black;}
+
+#dfdee5 {display: block; background-color: #dfdee5;}
+
+	#fff0b6 {display: block; background-color: #fff0b6;}
+	#ccc4b1 {display: block; background-color: #ccc4b1;}
+	#i5E5E8C {display: block; background-color: #5E5E8C; color: white;}
+	#i3C3C59 {display: block; background-color: #3C3C59; color: white;}
+	#i828C2D {display: block; background-color: #828C2D;}
+	#i273A4D {display: block; background-color: #273A4D; color: white;}
+	#i347ABF {display: block; background-color: #347ABF;}
+	#i34A2BF {display: block; background-color: #34A2BF;}
+	#i3C401B {display: block; background-color: #3C401B; color: white;}
+	#i732A25 {display: block; background-color: #732A25; color: white;}
+	#i8C3A34 {display: block; background-color: #8C3A34; color: white;}
