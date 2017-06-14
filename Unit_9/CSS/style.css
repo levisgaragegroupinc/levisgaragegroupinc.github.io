@@ -33,6 +33,10 @@ h1 {
 	width: 52%
 }
 
+.h1-float-correction {
+	width: 100%;
+}
+
 .diy {
 	color: #34A2BF;
 }
