@@ -301,7 +301,7 @@ form input, form textarea {
 	width: 250px;
 }
 
-@media only screen and (max-width: 882px) {
+@media only screen and (max-width: 903px) {
 	#header-menu {
 		float: none; 
 		margin: auto; 
